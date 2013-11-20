@@ -1,0 +1,19 @@
+$primary-color: #e67e22;
+$primary-font: Helvetica Neue;
+
+body {
+  text-align: center;
+  background-color: $primary-color;
+  margin: 0 auto;
+  width: 50%;
+  font-family: $primary-font;
+}
+
+#results {
+  background: #3498db;     
+  margin: 0 auto;
+
+  ul {
+    list-style: none;
+  }
+}

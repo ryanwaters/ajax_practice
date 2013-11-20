@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  background-color: #e67e22;
+  margin: 0 auto;
+  width: 50%;
+  font-family: Helvetica Neue; }
+
+#results {
+  background: #3498db;
+  margin: 0 auto; }
+  #results ul {
+    list-style: none; }
