@@ -10,3 +10,5 @@ body {
   margin: 0 auto; }
   #results ul {
     list-style: none; }
+  #results li {
+    padding-right: 5px; }

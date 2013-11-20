@@ -4,7 +4,6 @@ window.onload = function() {
   var queryInput = document.getElementById('query');
   var moviesList = document.getElementById('moviesList');
   var resultsDiv = document.getElementById('results');
-  var movies;
   var list;
 
 
@@ -20,12 +19,12 @@ window.onload = function() {
         movieResults = request.response;
         parsedMovies = JSON.parse(movieResults)
 
-        
         for (var i = 0; i < parsedMovies.Search.length; i++) {
           var list = document.createElement('li');
           var movieTitle = document.createTextNode(parsedMovies.Search[i]['Title']);
           var movieYear = document.createTextNode(parsedMovies.Search[i]['Year']);
-          list.appendChild(movieTitle, movieYear);
+          list.appendChild(movieTitle);
+          list.appendChild(movieYear);
           moviesList.appendChild(list);
         }
       }
