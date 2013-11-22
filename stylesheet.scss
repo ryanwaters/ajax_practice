@@ -1,22 +1,54 @@
-$primary-color: #e67e22;
+$primary-color: #ecf0f1;
 $primary-font: Helvetica Neue;
 
 body {
   text-align: center;
-  background-color: $primary-color;
+  // background: url('movies.jpg') no-repeat center center fixed;
+  // background-size: cover;
+  background-color: #ecf0f1;
   margin: 0 auto;
   width: 50%;
   font-family: $primary-font;
 }
 
 #results {
-  background: #3498db;     
+       
   margin: 0 auto;
+
 
   ul {
     list-style: none;
+    padding: 10px;
   }
   li {
     padding-right: 5px;
   }
 }
+
+#query {
+  width: 50%;
+  height: 50px;
+  box-shadow: 0 0 .5em #3498db;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 5px;
+}
+#button {
+  width: 50%;
+  height: 50px;
+  background: #3498db;
+  border: none;
+  margin-top: 1em;
+  font-family: $primary-font;
+  font-size: 1.5em;
+  color: #fff;
+  opacity: 1;
+}  
+
+.container {
+  background-color: #fff;
+  padding-top: 2px;
+  margin-top: 15px;
+}
+
+
