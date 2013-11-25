@@ -22,6 +22,11 @@ body {
   }
   li {
     padding-right: 5px;
+    :hover {
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 15px;   
+    }
   }
 }
 

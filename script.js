@@ -25,12 +25,14 @@ window.onload = function() {
           var list = document.createElement('li');
           var movieTitle = document.createTextNode(parsedMovies.Search[i]['Title'] + " ");
           var movieYear = document.createTextNode(parsedMovies.Search[i]['Year']);
+          var imdbID = document.createTextNode(parsedMovies.Search[i]['imdbID']);
           list.appendChild(movieTitle);
           list.appendChild(movieYear);
 
           moviesList.appendChild(list);
-
+          
         }
+
       }
     }
     request.send()

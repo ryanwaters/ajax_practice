@@ -12,6 +12,10 @@ body {
     padding: 10px; }
   #results li {
     padding-right: 5px; }
+    #results li :hover {
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 15px; }
 
 #query {
   width: 50%;
