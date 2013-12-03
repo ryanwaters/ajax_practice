@@ -4,21 +4,19 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <script src="script.js"></script>
 </head>
+<body>
+  <div class="container">
+    <h1>Search for any Movie</h1>
 
-  <body>
-    <div class="container">
-      <h1>Search for any Movie</h1>
-      <form id="search">
-        <input type="text" id="query">
-        <input type="submit" value="Search" id="button">
-      </form>
+  <form id="search">
+    <input type="text" id="query">
+    <input type="submit" value="search" id="button">
+  </form>
 
-      <div id="results">
-        <ul>
-          <li id="moviesList" data="imdbID"></li>
-        </ul>
-      </div>
-    </div>  
-  </body>
+  <ul id="results"></ul>
+
+  <div id="poster"></div>
+</div>
+</body>
 </html>
 

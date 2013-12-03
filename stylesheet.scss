@@ -17,16 +17,27 @@ body {
 
 
   ul {
-    list-style: none;
     padding: 10px;
+    width: 100%;
+
   }
+
   li {
+    
+    list-style: none;
     padding-right: 5px;
     :hover {
       background-color: #3498db;
       color: #fff;
-      border-radius: 15px;   
+      border-radius: 15px;
+      width: 150%;   
     }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    
   }
 }
 
@@ -44,16 +55,22 @@ body {
   background: #3498db;
   border: none;
   margin-top: 1em;
+  margin-bottom: 1em;
   font-family: $primary-font;
   font-size: 1.5em;
   color: #fff;
   opacity: 1;
+  
 }  
 
 .container {
   background-color: #fff;
   padding-top: 2px;
   margin-top: 15px;
+  padding-bottom: 15px;
 }
 
+#poster {
+  margin-top: 10px;
+}
 
